@@ -1,0 +1,18 @@
+[user]
+  name = David Xia
+  email = david@davidxia.com
+[alias]
+  st = status
+  co = checkout
+  com = commit
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[core]
+  editor = vim
+  excludesfile = gitignore_global
+[color]
+  ui = true
+[format]
+  pretty = oneline
+[web]
+  browser = google-chrome
