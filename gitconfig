@@ -6,13 +6,18 @@
   co = checkout
   com = commit
   br = branch
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-[core]
-  editor = vim
-  excludesfile = ~/.gitignore_global
+  hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[branch]
+  autosetuprebase = always
 [color]
   ui = true
-[format]
-  pretty = oneline
+[commit]
+  template = ~/.git-config/message_template
+[core]
+  editor = vim
+  excludesfile = ~/.git-config/gitignore_global
+  pager = less
+[push]
+  default = tracking
 [web]
   browser = google-chrome
