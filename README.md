@@ -9,8 +9,8 @@ ignores compiled source files, packages, logs, databases, and OS and Vim-generat
 
 # Installation
 
-    git clone https://github.com/davidxia/git-config.git ~/.git-conf
+    git clone https://github.com/tranzfuse/git-config.git ~/.git-conf
     ln -s ~/.git-conf/gitconfig ~/.gitconfig
     ln -s ~/.git-conf/gitignore_global ~/.gitignore_global
 
-If you are not David Xia, make sure to change the name and email address in `gitconfig`.
+If you are not Adam Smith, make sure to change the name and email address in `gitconfig`.
